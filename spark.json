@@ -1,0 +1,7 @@
+{
+    "name": "spark-roboclaw",
+    "version": "0.0.1",
+    "author": "Eric Ponce <eaponce@mit.edu>",
+    "license": "MIT License",
+    "description": "Spark Port of Roboclaw Motor Driver Lib"
+}

@@ -1,2 +1,2 @@
-# spark-roboclaw
-A Spark port of the Roboclaw Motor Driver Arduino Library
+# Spark RoboClaw Library
+Spark Port of RoboClaw Arduino Library using Serial1
