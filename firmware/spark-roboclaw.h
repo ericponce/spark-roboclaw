@@ -163,9 +163,9 @@ public:
 	bool WriteNVM(uint8_t address);
 	
 private:
-	int16_t RoboClaw::read(uint32_t timeout);
-	size_t RoboClaw::write(uint8_t b);
-	int16_t RoboClaw::read();
+	int16_t read(uint32_t timeout);
+	size_t write(uint8_t b);
+	int16_t read();
 	bool write_n(uint8_t byte,...);
 	bool read_n(uint8_t byte,uint8_t address,uint8_t cmd,...);
 	uint32_t Read4_1(uint8_t address,uint8_t cmd,uint8_t *status,bool *valid);
