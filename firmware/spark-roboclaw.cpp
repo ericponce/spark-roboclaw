@@ -50,7 +50,7 @@ bool RoboClaw::write_n(uint8_t cnt, ... )
 	va_list marker;
 	va_start( marker, cnt );     /* Initialize variable arguments. */
 	for(uint8_t index=0;index<cnt;index++){
-		uint8_t data = va_arg(marker, uint8_t);
+		uint8_t data = va_arg(marker, int);
 		crc+=data;
 		write(data);
 	}
