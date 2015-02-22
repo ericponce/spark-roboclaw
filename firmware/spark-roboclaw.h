@@ -95,6 +95,8 @@ public:
 	
 	~RoboClaw();
 
+	void begin(long baud);
+
 	bool ForwardM1(uint8_t address, uint8_t speed);
 	bool BackwardM1(uint8_t address, uint8_t speed);
 	bool SetMinVoltageMainBattery(uint8_t address, uint8_t voltage);

@@ -16,6 +16,10 @@ RoboClaw::~RoboClaw()
 {
 }
 
+void RoboClaw::begin(long baud) {
+	Serial1.begin(baud);
+}
+
 int16_t RoboClaw::read(uint32_t timeout)
 {
 	uint32_t start = micros();
