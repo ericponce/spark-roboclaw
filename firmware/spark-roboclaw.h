@@ -2,6 +2,7 @@
 #define RoboClaw_h
 
 #include <stdarg.h>
+#include <stdint.h>
 
 /******************************************************************************
 * Definitions
