@@ -1,4 +1,4 @@
-#include "RoboClaw.h"
+#include "spark-roboclaw.h"
 
 //
 // Constructor
