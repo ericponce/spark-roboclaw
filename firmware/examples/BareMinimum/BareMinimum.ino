@@ -1,5 +1,6 @@
-#include "BMSerial.h"
-#include "RoboClaw.h"
+#include "spark-roboclaw/spark-roboclaw.h"
+
+SYSTEM_MODE(SEMI_AUTOMATIC)
 
 #define address 0x80
 
