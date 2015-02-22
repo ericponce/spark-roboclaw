@@ -4,6 +4,7 @@
 #include <stdarg.h>
 #include <stdint.h>
 #include <stdlib.h>
+#include "application.h"
 
 /******************************************************************************
 * Definitions
